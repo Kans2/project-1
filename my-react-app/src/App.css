@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home-2
+{
+    margin-top:350px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.content
+{
+    position: relative;
+    top:50%;
+}
+.image
+{
+    padding-top:5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Typewriter__wrapper {
+    font-size: 2.2em !important;
+    color: #be6adf !important;
+    font-weight: 600 !important;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .Typewriter__cursor {
+    font-size: 2.4em !important;
+    color: #b562d6 !important;
   }
-  to {
-    transform: rotate(360deg);
+  .icon {
+    font-size: 2rem; /* Adjust the size as needed */
+    margin:0px 1.5rem;
+    color:black;
+/* Optional: Add margin between icons */
   }
-}
+  .social
+  {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  margin-bottom:3rem;
+  }
+  .footer-connect
+  {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-icon
+  {
+    font-size: 2rem; /* Adjust the size as needed */
+    
+    margin:0px 1.5rem;
+    color:white;
+  }
+  .connect
+  {
+    margin-top:200px;
+  }
