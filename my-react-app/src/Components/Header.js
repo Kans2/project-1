@@ -1,12 +1,12 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { AiFillHome, AiOutlineUser, AiOutlineProject, AiOutlineFileText, } from "react-icons/ai";
+import { AiFillHome, AiOutlineUser, AiOutlineProject, AiOutlineFileText } from "react-icons/ai";
 const Header = () => {
   return (
     <div className="App">
       <Navbar bg="dark" expand="lg">
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+        <Navbar.Brand href="#home" style={{color:'white'}}>SK</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <GiHamburgerMenu /> {/* Using the hamburger menu icon */}
         </Navbar.Toggle>
@@ -14,39 +14,33 @@ const Header = () => {
           <Nav className="ms-auto">
             <Nav.Link
               href="#home"
-    
-              id="work"
-              style={{ display:'flex',flexDirection: 'column', alignItems: 'center', margin: "10px 20px", color: "white" }}
+              className="nav-link"
             >
               <AiFillHome /> Home
             </Nav.Link>
             <Nav.Link
               href="#about"
-              style={{ display:'flex',flexDirection: 'column', alignItems: 'center', margin: "10px 20px", color: "white" }}
-              id="work"
+              className="nav-link"
             >
-               <AiOutlineUser /> About
+              <AiOutlineUser /> About
             </Nav.Link>
             <Nav.Link
               href="#project"
-              style={{ display:'flex',flexDirection: 'column', alignItems: 'center', margin: "10px 20px", color: "white" }}
-              id="work"
+              className="nav-link"
             >
-                <AiOutlineProject />   Projects
+              <AiOutlineProject /> Projects
             </Nav.Link>
             <Nav.Link
               href="#resume"
-              style={{ display:'flex',flexDirection: 'column', alignItems: 'center', margin: "10px 20px", color: "white" }}
-              id="work"
+              className="nav-link"
             >
-            <AiOutlineFileText />   Resume
+              <AiOutlineFileText /> Resume
             </Nav.Link>
             <Nav.Link
               href="#certificate"
-              style={{display:'flex', flexDirection: 'column', alignItems: 'center', margin: "10px 20px", color: "white" }}
-              id="work"
+              className="nav-link"
             >
-               <AiOutlineFileText />  Certificates
+              <AiOutlineFileText /> Certificates
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
@@ -55,6 +49,5 @@ const Header = () => {
     </div>
   );
 };
-
 
 export default Header;
