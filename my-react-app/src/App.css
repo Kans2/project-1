@@ -4,6 +4,22 @@
     padding:0;
     box-sizing: border-box;
 }
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+}
+
 /* Header.css */
 /* Header.css */
 /* Header.css */
@@ -33,25 +49,67 @@
     background-color: white !important; /* White background color on hover */
   }
   
-  
 .image
 {
     display:flex;
     align-items: center;
     justify-content: center;
     margin-top:4rem;
+
 }
 .content
 {
     position:relative;
     top:50%;
+    color:white;
 }
 .home-2
 {
     margin-top:200px;
 }
-.connect
+
+.social
 {
-    margin-top:200px;
-    padding-bottom:3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Typewriter__wrapper {
+  font-size: 2.2em !important;
+  color: #be6adf !important;
+  font-weight: 600 !important;
+}
+.Typewriter__cursor {
+  font-size: 2.4em !important;
+  color: #b562d6 !important;
+}
+.icon {
+  font-size: 2rem; /* Adjust the size as needed */
+  color:black;
+  margin:2rem;
+ /* Optional: Add margin between icons */
+}
+.footer-icons .social-icons
+{
+display:inline-block !important;
+padding:0px 20px !important;
+}
+.about-content
+{
+  color:white;
+}
+.Skill 
+{
+  color:white;
+}
+.about-connect-icons
+{
+  list-style:none;
+  text-align: center;
+}
+.about-connect-icons .connect-icons
+{
+  display: inline-block!important;
+  padding:0px 20px!important;
+  font-size:2rem;
 }

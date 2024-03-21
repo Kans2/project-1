@@ -5,7 +5,6 @@ export default function Footer() {
   const footer = {
     backgroundColor: "black",
     width: "100%",
-    height: "max-content",
     padding: "2%",
     display: "flex",
     alignItems: "center",
@@ -26,15 +25,39 @@ export default function Footer() {
           </div>
           <div className="col-lg-4 col-md-12 col-sm-12">
             <div className="footer-connect">
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
-            <FaGithub className="footer-icon" />
-          </a>
-          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
-            <FaLinkedin className="footer-icon" />
-          </a>
-          <a href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">
-            <FaFacebook className="footer-icon" />
-          </a>
+            <ul className="footer-icons">
+            <li className="social-icons">
+              <a
+                href="https://www.google.com"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <FaGithub />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://www.google.com"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <FaLinkedin />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://www.google.com"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <FaFacebook />
+              </a>
+            </li>
+         
+          </ul>
             </div>
           </div>
         </div>

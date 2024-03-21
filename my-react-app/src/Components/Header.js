@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="App">
       <Navbar bg="dark" expand="lg">
-        <Navbar.Brand href="#home" style={{color:'white'}}>SK</Navbar.Brand>
+        <Navbar.Brand href="#home" style={{color:'white',marginLeft:'10%',fontSize:'2rem'}}>SK</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <GiHamburgerMenu /> {/* Using the hamburger menu icon */}
         </Navbar.Toggle>

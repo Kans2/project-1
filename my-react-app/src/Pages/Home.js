@@ -1,13 +1,21 @@
 import React from "react";
 import Type from "../Components/Home/Type";
 import Home2 from "../Components/Home/Home2";
-import Connect from "../Components/Home/Connect";
 import home1 from "../Assets/home-1.svg";
-
+import back from "../Assets/home-bg.jpg";
+import Connect from "../Components/Home/Connect";
 export default function Home() {
   return (
-    <div className="container-fluid">
-      <div className="container">
+    <div className="container-fluid" style={{   backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${back})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    boxShadow: "inset 0 0 10px rgba(0, 0, 0, 0.5)",
+    minHeight: "170vh",
+    position: "relative",
+    zIndex: 0,
+}}>
+      <div className="container" style={{ position: 'relative', zIndex: 1 }}>
         <div className="row m-0 p-0">
           <div className="col-lg-6 col-md-12 col-sm-12">
             <div className="content">
@@ -30,7 +38,9 @@ export default function Home() {
         </div>
       </div>
       <Home2 />
-      <Connect />
+      <br></br>
+      <br></br>
+      <Connect/>
     </div>
   );
 }
