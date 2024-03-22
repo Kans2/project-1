@@ -113,3 +113,25 @@ padding:0px 20px !important;
   padding:0px 20px!important;
   font-size:2rem;
 }
+.skill-icon
+{
+  font-size:3rem;
+  color:white;
+}
+.skill-box
+{
+  border:2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius:4px;
+  width:200px;
+  padding:15%;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  transition:0.5s;
+}
+.skill-box:hover
+{
+  transform:scale(1.1);
+  transition:0.5s;
+}

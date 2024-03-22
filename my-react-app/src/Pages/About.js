@@ -15,6 +15,8 @@ export default function About() {
     zIndex: 0,
 }}>
  <About1/>
+ <br></br>
+ <br></br>
 <SkillSet/>
 </div>
   );
