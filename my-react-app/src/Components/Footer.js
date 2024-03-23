@@ -11,14 +11,15 @@ export default function Footer() {
     justifyContent: "center",
   };
 
- 
+ const day = new Date();
 
+ let Year = day.getFullYear();
   return (
     <div style={footer}>
       <div className="container">
         <div className="row">
           <div className="col-lg-4 col-md-12 col-sm-12">
-            <p style={{ color: "white" }}>created by kans</p>
+            <p style={{ color: "white" }}>created by kans{Year}</p>
           </div>
           <div className="col-lg-4 col-md-12 col-sm-12">
             <p style={{ color: "white" }}>copy rights all reserved</p>

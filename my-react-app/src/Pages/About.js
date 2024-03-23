@@ -2,6 +2,7 @@ import React from "react";
 import About1 from "../Components/About/About1";
 import SkillSet from "../Components/About/SkillSet";
 import back from "../Assets/home-bg.jpg";
+import Tools from "../Components/About/Tools";
 export default function About() {
  
   return (
@@ -18,6 +19,13 @@ export default function About() {
  <br></br>
  <br></br>
 <SkillSet/>
+<br></br>
+<br></br>
+<Tools/>
+<br></br>
+<br></br>
+<br></br>
+
 </div>
   );
 }
