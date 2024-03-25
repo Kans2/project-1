@@ -134,4 +134,5 @@ padding:0px 20px !important;
 {
   transform:scale(1.1);
   transition:0.5s;
+  box-shadow:10px 8px 10px 8px rgba(89, 4, 168, 0.137)!important;
 }

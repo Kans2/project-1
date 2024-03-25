@@ -1,6 +1,7 @@
 import React from 'react';
 import about1 from "../../Assets/about-1.svg";
 
+
 export default function About1() {
   return (
      <div className='container'>

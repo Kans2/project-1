@@ -3,8 +3,9 @@ import About1 from "../Components/About/About1";
 import SkillSet from "../Components/About/SkillSet";
 import back from "../Assets/home-bg.jpg";
 import Tools from "../Components/About/Tools";
-export default function About() {
- 
+import Github from "../Components/About/Github";
+
+export default function About() { 
   return (
 <div className="container-fluid"  style={{   backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${back})`,
     backgroundSize: "cover",
@@ -25,7 +26,7 @@ export default function About() {
 <br></br>
 <br></br>
 <br></br>
-
+<Github/>
 </div>
   );
 }
